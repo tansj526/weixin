@@ -1,0 +1,11 @@
+
+<div><%= title %></div>
+<div><%= data.layout %></div>
+<% if(data.supplies && data.supplies.length>0){ %>
+<ul>
+    <% for(var i= 0,len = data.supplies.length; i<len; i++) {%>
+    <% var item = data.supplies[i] %>
+    <li><%= item %></li>
+    <% } %>
+</ul>
+<% } %>

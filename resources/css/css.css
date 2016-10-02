@@ -1,0 +1,32 @@
+html,body{
+  margin:0;
+  padding:0;
+}
+body{
+  background:#fff;
+  color:#565656;
+  font: 14px/1.4 Microsoft YaHei;
+}
+ul,li,p,h1,h2,h3{
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+.layout{
+  width:1190px;
+  margin:0 auto;
+}
+.header{
+  width:100%;
+  line-height: 56px;
+  font-size:16px;
+  text-align: center;
+  color:#fff;
+  background:#e74c3c;
+}
+.footer{
+  width:100%;
+  text-align:center;
+  line-height: 20px;
+  font-size:12px;
+}

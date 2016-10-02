@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="edge"/>
+    <meta http-equiv="Cache-control" content="no-cache">
+    <title>测试</title>
+
+</head>
+<body>
+<ul id="title"></ul>
+<script src="js/ejs.js"></script>
+<script>
+    //模版需要用到的数据
+    var data = {
+        title:  'Cleaning Supplies',
+        supplies:   ['mop', 'broom', 'duster']
+    };
+
+    var title = document.getElementById('title');
+    //模版渲染
+    title.innerHTML = new EJS({
+        url : "view/title.ejs"     //模版的地址
+    }).render(data);
+</script>
+</body>
+</html>
